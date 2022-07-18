@@ -8,6 +8,7 @@ The data was collcted at 115200 buad-rate, for a total of 10+12 location cordina
 ![image](https://user-images.githubusercontent.com/65479883/179546440-2f11c074-45d5-4ba1-ade6-5db22c567efe.png)
 
 Here is a the heatmap output, using [kepler.GL](https://www.kepler.gl), a web data-visualization platform. You may go to '/Heatmap export' folder, and find the embedded HTML Map, and JSON to replicate this image.
+The [Interactive Heatmap](https://noise-heatmap-kunaleverywhere.netlify.app) can be accessed here [https://noise-heatmap-kunaleverywhere.netlify.app](https://noise-heatmap-kunaleverywhere.netlify.app)
 
 ![kepler gl](https://user-images.githubusercontent.com/65479883/179546474-249b85bf-6f4f-4fa0-a0f4-a50ed39cdf81.png)
 
