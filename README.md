@@ -1,4 +1,6 @@
 # Noise-Heatmap
+
+[update July 18, 2022]
 This project utilises IoT KY-038 (D-010) MIC paired to ESP-32S Dual-Core mC, to collect noise dB data in urban environments, and map the data into a geographic 2D HeatMap
 
 This is a pilot study and has some limitations which we aim to mitigate in near future iterative versions. The data was collected in 2 sessions on 18-July 2022. Metadata about this can be found in the '/Data Collected' folder.
