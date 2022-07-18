@@ -5,7 +5,7 @@ This is a pilot study and has some limitations which we aim to mitigate in near 
 
 The data was collcted at 115200 buad-rate, for a total of 10+12 location cordinates for this pilot study. The scope will be extended moving forward. Then, for each location, the average of dB value was taken in for the heatmap-plotting. The sound sensor generally, reads the analog value of sound which is then converted into the decibel using some mathematical formula.
 
-![image](https://user-images.githubusercontent.com/65479883/179546440-2f11c074-45d5-4ba1-ade6-5db22c567efe.png | width=100)
+![image](https://user-images.githubusercontent.com/65479883/179546440-2f11c074-45d5-4ba1-ade6-5db22c567efe.png | width=100px)
 
 Here is a the heatmap output, using [kepler.GL](https://www.kepler.gl), a web data-visualization platform.
 
