@@ -1,16 +1,19 @@
 # Noise-Heatmap
 
-[update July 18, 2022]
+[update July 20, 2022]
+
 This project utilises IoT KY-038 (D-010) MIC paired to ESP-32S Dual-Core mC, to collect noise dB data in urban environments, and map the data into a geographic 2D HeatMap
 
-This is a pilot study and has some limitations which we aim to mitigate in near future iterative versions. The data was collected in 2 sessions on 18-July 2022. Metadata about this can be found in the '/Data Collected' folder.
+This is a pilot study and has some limitations which we aim to mitigate in near future iterative versions. The data was collected in 3 sessions on 18-July and 19-July 2022. Metadata about this can be found in the '/Data Collected' folder.
 
-The data was collcted at 115200 buad-rate, for a total of 10+12 location cordinates for this pilot study. The scope will be extended moving forward. Then, for each location, the average of dB value was taken in for the heatmap-plotting. The sound sensor generally, reads the analog value of sound which is then converted into the decibel using some mathematical formula.
+The data was collcted at 115200 buad-rate, for a total of 10+12+10 location cordinates for this pilot study. The scope will be extended moving forward. Then, for each location, the average of dB value was taken in for the heatmap-plotting. The sound sensor generally, reads the analog value of sound which is then converted into the decibel using some mathematical formula.
 
 ![image](https://user-images.githubusercontent.com/65479883/179546440-2f11c074-45d5-4ba1-ade6-5db22c567efe.png)
 
 Here is a the heatmap output, using [kepler.GL](https://www.kepler.gl), a web data-visualization platform. You may go to '/Heatmap export' folder, and find the embedded HTML Map, and JSON to replicate this image.
 The [Interactive Heatmap](https://noise-heatmap-kunaleverywhere.netlify.app) can be accessed here [https://noise-heatmap-kunaleverywhere.netlify.app](https://noise-heatmap-kunaleverywhere.netlify.app)
+
+https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/2ucx6jppnl3mbsf/keplergl_u64nlc3.json
 
 ![kepler gl](https://user-images.githubusercontent.com/65479883/179546474-249b85bf-6f4f-4fa0-a0f4-a50ed39cdf81.png)
 
